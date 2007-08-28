@@ -62,7 +62,6 @@ Terminal=false
 Type=Application
 Categories=X-MandrivaLinux-Multimedia-Graphics;Graphics;Viewer;
 MimeType=image/tiff
-Encoding=UTF-8
 EOF
 
 
