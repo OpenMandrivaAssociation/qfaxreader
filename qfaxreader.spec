@@ -12,7 +12,6 @@ Source:		http://prdownloads.sourceforge.net/qfaxreader/%{name}-%{version}.tar.bz
 URL:		http://qfaxreader.sourceforge.net/
 License:	GPL
 Group:		Graphics
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	pkgconfig ImageMagick qt3-devel tiff-devel gdbm-devel
 
 %description
