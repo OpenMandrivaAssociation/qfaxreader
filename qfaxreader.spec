@@ -46,10 +46,6 @@ mkdir -p %buildroot/%_iconsdir/hicolor/32x32/apps/
 rm -fr $RPM_BUILD_ROOT/%_docdir
 
 #menu
-mkdir -p $RPM_BUILD_ROOT%{_menudir}
-cat << EOF > $RPM_BUILD_ROOT%{_menudir}/%{name}
-?package(%{name}): command="%{name}" icon="%{name}.png" needs="x11" title="QFaxReader" longtitle="Multipage TIFF viewer" section="Multimedia/Graphics" mimetypes="image/tiff" xdg="true"
-EOF
 
 mkdir -p %{buildroot}%{_datadir}/applications
 cat > %{buildroot}%{_datadir}/applications/mandriva-%{name}.desktop << EOF
@@ -92,7 +88,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/%name
 %{_mandir}/man1/*
 %{_iconsdir}/hicolor/*/apps/*
-%{_menudir}/%name
 %{_datadir}/applications/mandriva-%{name}.desktop
 %{_liconsdir}/%name.png
 %{_iconsdir}/%name.png
