@@ -1,6 +1,6 @@
 %define name	qfaxreader
 %define version 0.3.1
-%define release %mkrel 1
+%define release %mkrel 3
 
 Name: 	 	%{name}
 Summary: 	Multipage TIFF/fax viewer
