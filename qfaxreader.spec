@@ -13,7 +13,7 @@ URL:		http://qfaxreader.sourceforge.net/
 License:	GPL
 Group:		Graphics
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	pkgconfig ImageMagick qt3-devel tiff-devel gdbm-devel
+BuildRequires:	pkgconfig imagemagick qt3-devel tiff-devel gdbm-devel
 
 %description
 QFaxReader is a monochrome multipage .TIFF files visualisation utility
