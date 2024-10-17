@@ -9,7 +9,7 @@ Epoch:		1
 Release: 	%{release}
 
 Source:		http://prdownloads.sourceforge.net/qfaxreader/%{name}-%{version}.tar.bz2
-URL:		http://qfaxreader.sourceforge.net/
+URL:		https://qfaxreader.sourceforge.net/
 License:	GPL
 Group:		Graphics
 BuildRoot:	%{_tmppath}/%{name}-buildroot
